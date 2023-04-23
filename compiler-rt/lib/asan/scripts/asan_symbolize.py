@@ -31,7 +31,7 @@ import subprocess
 import sys
 
 symbolizers = {}
-demangle = False
+demangle = True
 binutils_prefix = None
 fix_filename_patterns = None
 logfile = sys.stdin
